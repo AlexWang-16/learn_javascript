@@ -14,11 +14,11 @@
 // 4. ...
 
 var animals = [
-  {name : "fluffy", species: "cat", attack: "scratching"},
-  {name: "snoopy", species: "dog", attack: "clawing"},
+  {name : "Fluffy", species: "cat", attack: "scratching"},
+  {name: "Snoopy", species: "dog", attack: "clawing"},
   {name: "Joey", species: "dog", attack: "clawing"},
   {name: "Buster", species: "dog", attack: "clawing"},
-  {name: "perrrot", species: "bird", attack: "pecking"}
+  {name: "Perrrot", species: "bird", attack: "pecking"}
 ];
 
 // filter() takes a callback function and iterates through each element in an
@@ -26,7 +26,7 @@ var animals = [
 // true.
 
 //Here, we are filtering all animals for the name snoopy.
-var snoopy = animals.filter(animal => animal.name == 'snoopy')
+var snoopy = animals.filter(animal => animal.name == 'Snoopy')
 console.log("filtering for snoopy...")
 console.log(snoopy)
 
