@@ -1,15 +1,29 @@
 {
-  "name": "jest",
+  "name": "learn_javascript",
   "version": "1.0.0",
-  "description": "",
+  "description": "My JavaScript adventure",
   "main": "index.js",
-  "dependencies": {
-    "jest": "^21.2.1"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test":"jest"
+    "test": "jest",
+    "test-watch": "npm run test -- --watch",
+    "babel": "babel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexWang-16/learn_javascript.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexWang-16/learn_javascript/issues"
+  },
+  "homepage": "https://github.com/AlexWang-16/learn_javascript#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^21.2.1"
+  }
 }
