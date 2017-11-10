@@ -20,6 +20,6 @@ All adventures are store inside adventure/ directory. Inside that directory are 
 
 To run a test, execute `npm test`. All tests needs to be included inside `__test__` folder. *sum.test.js* will run tests against /adventure/01/sum.js
 
-------
+<hr>
 
-**02** - Modifying the DOM with JavaScript. In this adventure, I have created a <ul> and <li> element. I then added my own text into <li> and appended <li> into <ul>. The purpose of this adventure is to learn creating HTML elements using pure JavaScript and adding content into the webpage.
+**02** - Modifying the DOM with JavaScript. In this adventure, I have created a `<ul>` and `<li>` element. I then added my own text into <li> and appended <li> into <ul>. The purpose of this adventure is to learn creating HTML elements using pure JavaScript and adding content into the webpage.
