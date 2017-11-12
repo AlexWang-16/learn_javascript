@@ -51,3 +51,10 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 05.js
 **06** - Currying. Currying in JS allows a function to accumulatively collect its arguments and process output when all arguments have been collected. It guarantees the order in which arguments are collected by returning a series of functions that are nested. ECMAScript does not currently have a curry method to curry functions natively, but libraries such as lodash can be imported to perform this function. Reference to the adventure can be found [here](https://youtu.be/iZLP4qOwY8I)
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 06.js`
+
+---
+
+**07** - Prototypes. Prototypes allows objects in JavaScript to behave like classes. It is a simpler model of object oriented class model in that it allows delegation rather than creating a completely new instance while inheriting the design of the base class. This means if a developer requests for a property or method that the current object does not have, it will reference its prototype object in 
+search for those properties/methods. Only when the property or method is not found in a the prototype will it return undefined.
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 07.js`
