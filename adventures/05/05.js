@@ -22,3 +22,14 @@ blabber() //  This still works because bormir.speak is talk() bounded to bormir
 
 //How do we nkow that bind returns a copy of talk()?
 talk() // Execute this in node and you will see it return undefined
+
+// Can we embed external functions into an object to make use of it? Yes!
+
+var bormir2 = {
+  speak: talk,
+  sound: "One does not walk into Mordor!"
+}
+
+//  Because speak is referencing talk() within its own object, "this" will now
+//  refer to bormir2
+bormir2.speak()
