@@ -31,5 +31,6 @@ var bormir2 = {
 }
 
 //  Because speak is referencing talk() within its own object, "this" will now
-//  refer to bormir2
+//  refer to bormir2. JavaScript determines what "this" refers to at runtime
+//  when the function is called
 bormir2.speak()
