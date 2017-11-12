@@ -1,4 +1,3 @@
-"use strict"
 var talk = function(){
   console.log(this.sound);
 }
@@ -19,3 +18,6 @@ var bormir = {
 bormir.speak = talk.bind(bormir);
 var blabber = bormir.speak
 blabber()
+
+//How do we nkow that bind returns a copy of talk()?
+talk() // Execute this in node and you will see it return undefined
