@@ -46,3 +46,8 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 04.js
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 05.js`
 
+---
+
+**06** - Currying. Currying in JS allows a function to accumulatively collect its arguments and process output when all arguments have been collected. It guarantees the order in which arguments are collected by returning a series of functions that are nested. ECMAScript does not currently have a curry method to curry functions natively, but libraries such as lodash can be imported to perform this function. Reference to the adventure can be found [here](https://youtu.be/iZLP4qOwY8I)
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 06.js`
