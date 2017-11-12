@@ -8,7 +8,8 @@ var bormir = {
 }
 
 // If executed without bind, the talk function's "this" keyword will refer to
-// the global object even if it is assigned to bormir.speak property.
+// the global object (NodeJS environment) or window object (browser)
+// even if it is assigned to bormir.speak property.
 // The property merely references talk(). bind() will create a copy of talk(),
 // infer "this" to be bormir and return the new talk().
 
@@ -17,7 +18,7 @@ var bormir = {
 //bormir.speak = talk;
 bormir.speak = talk.bind(bormir);
 var blabber = bormir.speak
-blabber()
+blabber() //  This still works because bormir.speak is talk() bounded to bormir
 
 //How do we nkow that bind returns a copy of talk()?
 talk() // Execute this in node and you will see it return undefined
