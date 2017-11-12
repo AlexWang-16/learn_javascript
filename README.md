@@ -35,3 +35,14 @@ To view this adventure, please use browser to launch the containing index.html
 To view this adventure, use NodeJS to execute this code in terminal: `node 03.js`
 
 ---
+
+**04** - Arrow functions. In this adventure, I will explore how arrow functions in ES6 works.
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 04.js`
+
+---
+
+**05** - **bind** keyword. In this adventure, I will explore what is the purpose of bind and how to use it.
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 05.js`
+
