@@ -8,10 +8,10 @@ var bormir = {
   sound: "mur mur mur mur",
 }
 
-// Without bind, the talk function's "this" keyword will refer to
+// If executed without bind, the talk function's "this" keyword will refer to
 // the global object even if it is assigned to bormir.speak property.
-// the property merely references the function. Binding will provide
-// "this" inside talk() with the context of bormir
+// The property merely references talk(). bind() will create a copy of talk(),
+// infer "this" to be bormir and return the new talk().
 
 // Try this code first as is, it show throw undefined error
 // then comment out ln 18 and uncomment ln 19 to see the effects
