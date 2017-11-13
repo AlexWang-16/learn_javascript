@@ -11,5 +11,7 @@ console.log(func())
 //  Syntax error: function statement requires a name
 //func = () => { foo : function() {} }
 
-// TODO: Need to complete this part
+//  The solution is to wrap the object literal around with parenthesis
+func = () => ({foo:1})
+console.log(func()) // Returns {foo:1} anonymous object
 
