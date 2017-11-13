@@ -6,12 +6,11 @@
 // This makes them the primary candidate for callback functions.
 
 // Constraints of arrow functions
-// 1. They do not have an instance of "this". Therefore, they are useless
-//    as methods.
+// 1. They do not have its own "this", super, arguments, or new target.
+//    Therefore, they should not be used as methods.
 // 2. They are anonymous functions, so no names can be assigned to them.
 //    They cannot be reused.
-// 3. ...
-// 4. ...
+// 3. They cannot be used as constructors
 
 var animals = [
   {name : "Fluffy", species: "cat", attack: "scratching"},
