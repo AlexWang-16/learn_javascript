@@ -45,6 +45,8 @@ Additional adventures:
 04b - The different types of body for arrow functions
 04c - Returning object literals with arrow functions
 
+To view additional adventures, use NodeJS to execute this code in terminal: `node 04<letter>.js` (i.e. `node 04a.js`)
+
 ---
 
 **05** - **bind** keyword. In this adventure, I will explore what is the purpose of bind and how to use it.
@@ -63,3 +65,15 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 06.js
 search for those properties/methods. Only when the property or method is not found in a the prototype will it return undefined.
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 07.js`
+
+---
+
+**08** - Object.create(). Object.create() is a static method from Object function object that creates an object and sets its prototype to that of another object.
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 08.js`
+
+---
+
+**09** - JavaScript Labels. JavaScript Labels provide a way for loops and code blocks to be labeled such that the `break` command can be applied to a code block or loop. Labels also support `continue` command for loops.
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 09.js`
