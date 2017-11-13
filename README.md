@@ -40,6 +40,11 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 03.js
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 04.js`
 
+Additional adventures:
+04a - The behavior of "this" in arrow functions
+04b - The different types of body for arrow functions
+04c - Returning object literals with arrow functions
+
 ---
 
 **05** - **bind** keyword. In this adventure, I will explore what is the purpose of bind and how to use it.
