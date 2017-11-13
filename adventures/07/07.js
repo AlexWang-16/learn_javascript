@@ -1,3 +1,4 @@
+
 function talk() {
   console.log(this)
   console.log(this.sound)
@@ -5,7 +6,7 @@ function talk() {
 
 let animal = {
   //talk: talk  // The property talk is referring to talk()
-  talk // In ES6, talk: talk can be simplifed to "talk"
+  talk // In ES6, "talk: talk" can be simplifed to "talk"
 }
 
 let cat = {
