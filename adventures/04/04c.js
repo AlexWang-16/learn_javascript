@@ -3,15 +3,13 @@
 //  It is part of the arrow function syntax. Thus, it will not be treated as
 //  the object literal symbols.
 
-//let func = () => { foo : 1 } // Returns undefined. 'foo' is parsed as a label
+//  Code below returns undefined as 'foo' is parased as a label.
+//  For more information about JavaScript Labels, see adventure 09
+let func = () => { foo : 1 } // Returns undefined. 'foo' is parsed as a label
+console.log(func())
 
 //  Syntax error: function statement requires a name
 //func = () => { foo : function() {} }
 
-'use strict'
-function func(){
-  this.foo = 1
-}
+// TODO: Need to complete this part
 
-const thing = Object.create(func)
-console.log(thing.foo)
