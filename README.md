@@ -104,3 +104,9 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 11a.j
 **12** - Classical inheritence with `Object.create()`. In this adventure, we will see that classes are really functions and how the `extends` keyword works under the hood in traditional JavaScript.
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 12.js`
+
+---
+
+**13** - Limitations of inheritence in JavaScript and how to overcome them using composition.
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 13.js`
