@@ -18,3 +18,10 @@ console.log(dog.sound)  // Undefined. No access to function variables
 console.log(snoopy.getName())
 console.log(snoopy.age) // 5
 snoopy.talk() // woof!
+
+//  Since we are able to take advantage of closures within the factory function,
+//  we no longer need to rely on "this", which maybe ambiguous depending on
+//  the context that it is invoked under.
+
+//  Using factory functions, we can avoid the use of "this" and therefore,
+//  methods will always behave the way we would expect
