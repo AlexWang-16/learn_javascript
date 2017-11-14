@@ -95,3 +95,9 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 11.js
 **11a** - We examine the behaviour of super() in scenarios where prototype of a child class is switched to another class. In summary, the constructor's super() still refers to the original parent class' constructor.
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 11a.js`
+
+---
+
+**12** - Classical inheritence with `Object.create()`. In this adventure, we will see that classes are really functions and how the `extends` keyword works under the hood in traditional JavaScript.
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 12.js`
