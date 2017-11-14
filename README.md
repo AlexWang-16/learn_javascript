@@ -77,3 +77,9 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 08.js
 **09** - JavaScript Labels. JavaScript Labels provide a way for loops and code blocks to be labeled such that the `break` command can be applied to a code block or loop. Labels also support `continue` command for loops.
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 09.js`
+
+---
+
+**10** - JavaScript Classes in ES6. JavaScript classes is syntatic sugar for programmers who are coming from a heavily object oriented programming language and paradigm. Under the hood, it uses functions and prototypes. All variables and methods in classes are public and cannot be made private because JavaScript does not have classes, only prototypes. We are also introduced to the concept of the constructor(), which is a specialized function specifically for classes in ES6.
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 10.js`
