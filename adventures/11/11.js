@@ -12,8 +12,29 @@
 
 class Animal {
   constructor (name, species){
+    //  This is where all properties are defined
     this.name = name
     this.species = species
+  }
+
+  //  Getter
+  get getName(){
+    return this.name
+  }
+
+  //  Setter
+  set setName(newName){
+    this.name = newName
+  }
+
+  //  Method
+  poop() {
+    return 'poop!'
+  }
+
+  //  Static methods
+  static makeFriends(a, b){
+    return `${a} and ${b} are both friends!`
   }
 }
 
@@ -25,3 +46,11 @@ class Dog extends Animal{
 
 const snoopy = new Dog ("Snoopy")
 console.log(snoopy)
+console.log(snoopy.getName) // getters are called as a property
+console.log(snoopy.poop())
+
+snoopy.setName = 'snooop' // Arguments are passed into setter using assignment
+console.log(snoopy.getName)
+
+// Result: stacey and jackson are both friends!
+console.log(Dog.makeFriends('stacey', 'jackson'))
