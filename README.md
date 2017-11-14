@@ -83,3 +83,13 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 09.js
 **10** - JavaScript Classes in ES6. JavaScript classes is syntatic sugar for programmers who are coming from a heavily object oriented programming language and paradigm. Under the hood, it uses functions and prototypes. All variables and methods in classes are public and cannot be made private because JavaScript does not have classes, only prototypes. We are also introduced to the concept of the constructor(), which is a specialized function specifically for classes in ES6.
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 10.js`
+
+---
+
+**11** - JavaScript constructor() for class feature in ES6. The constructor() is a function specifically for class feature in ES6. It can only be declared within a class declaration and can only be declared once. Its purpose is for object creation via `new` keyword. When extending a class in JavaScript, the super() can be invoked inside the child class' constructor to call the parent's constructor.
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 11.js`
+
+**11a** - We examine the behaviour of super() in scenarios where prototype of a child class is switched to another class. In summary, the constructor's super() still refers to the original parent class' constructor.
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 11a.js`
