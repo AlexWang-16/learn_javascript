@@ -45,6 +45,9 @@ Additional adventures:
 04a - The behavior of "this" in arrow functions
 04b - The different types of body for arrow functions
 04c - Returning object literals with arrow functions
+04d - Arrow in arrow functions cannot be separated from its parameter
+04e - Arrow in arrow funciton behavior when combined with operation precedence
+04f - How to immediately invoke an arrow function
 ```
 
 To view additional adventures, use NodeJS to execute this code in terminal: `node 04<letter>.js` (i.e. `node 04a.js`)
