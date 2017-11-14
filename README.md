@@ -42,7 +42,9 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 04.js
 
 Additional adventures:
 04a - The behavior of "this" in arrow functions
+
 04b - The different types of body for arrow functions
+
 04c - Returning object literals with arrow functions
 
 To view additional adventures, use NodeJS to execute this code in terminal: `node 04<letter>.js` (i.e. `node 04a.js`)
