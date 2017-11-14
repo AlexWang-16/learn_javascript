@@ -39,3 +39,6 @@ function cat (name, species){
 
 let fluff = Object.create(cat)
 console.log(cat.isPrototypeOf(fluff))
+
+//  How do we know that classes is just snytatic sugar?
+console.log(typeof Dog) // function! A class is just a function!
