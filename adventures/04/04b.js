@@ -2,7 +2,8 @@
 //
 //  Arrow functions come in two flavors: "conscise body" and "block body".
 //  In a conscise body, only the expression is specified, which becomes the
-//  explicit return value. In block body, you must use an explicit return statement.
+//  explicit return value; The "return" keyword is implied. In block body,
+//  you must use an explicit return statement.
 
 //  Conscise body
 let func =  x => x * x
