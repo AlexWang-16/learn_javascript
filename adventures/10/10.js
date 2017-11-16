@@ -1,8 +1,19 @@
 //  Classes in JavaScript
 
 class Mammal {
- constructor(sound){
+ constructor(sound, name){
    this.sound = sound
+   this.name = name
+ }
+
+ // Getter methods cannot accept any arguments
+ get getName() {
+   return this.name
+ }
+
+ // Setter methods can only accept one argument
+ set setName(name){
+   this.name = name
  }
 
  talk(){
@@ -11,16 +22,19 @@ class Mammal {
 }
 
 class Dog extends Mammal {
-  constructor(){
-    super('wooooollllffff')
+  constructor(name){
+    super('wooooollllffff', name)
   }
 }
 
-const flufflykins = new Mammal('wooof!')
+const flufflykins = new Mammal('wooof!', 'flufflykins')
+console.log(flufflykins.getName)  //Calling getter function
 console.log(flufflykins.talk())
 
-const snoopy = new Dog()
+const snoopy = new Dog('snoopy')
 console.log(snoopy.talk())
+snoopy.setName = 'snoooop'
+console.log(`snoopy's new name is ${snoopy.getName}`)
 
 //  Keep in mind that properties and methods in ES6 classes are all public.
 //  There is no way to make them private. Hence @MPJ recommends using
