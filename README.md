@@ -104,3 +104,15 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 11a.j
 **12** - Classical inheritence with `Object.create()`. In this adventure, we will see that classes are really functions and how the `extends` keyword works under the hood in traditional JavaScript.
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 12.js`
+
+---
+
+**13** - Factory functions in Javascript. Factory functions are functions that create objects and return them. To view how they work, check out this adventure.
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 13.js`
+
+---
+
+**14** - Limitations of inheritence in JavaScript and how to overcome them using composition.
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 14.js`
