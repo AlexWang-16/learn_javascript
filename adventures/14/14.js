@@ -77,7 +77,8 @@ const murderRobotDog = (name) => {
   }
   return Object.assign(
     // Object.assign takes an object (an empty obj in this case), and assigns
-    // all the properties of the rest of the arguments to that object
+    // all the properties of the rest of the arguments to that object.
+    // Caution: Object.assign() is an ES6 feature.
     {},
     barker(state),
     driver(state),
