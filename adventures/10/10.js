@@ -1,5 +1,9 @@
 //  Classes in JavaScript
 
+// It is important to note that methods in a class should never be comma
+// separated. This is to emphaize the fact that classes and object
+// literals are different.
+
 class Mammal {
  constructor(sound, name){
    this.sound = sound

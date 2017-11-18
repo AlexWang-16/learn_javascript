@@ -20,7 +20,7 @@ bormir.speak = talk.bind(bormir);
 var blabber = bormir.speak
 blabber() //  This still works because bormir.speak is talk() bounded to bormir
 
-//How do we nkow that bind returns a copy of talk()?
+//How do we know that bind returns a copy of talk()?
 talk() // Execute this in node and you will see it return undefined
 
 // Can we embed external functions into an object to make use of it? Yes!
