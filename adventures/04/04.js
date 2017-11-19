@@ -54,7 +54,8 @@ var companyExpense = [
 ];
 
 //  reduce() takes 2 arguments: a call back function that reduces the values and
-//  for each element in the array. The second is the optional inital value of //  the accumulator.
+//  for each element in the array. The second is the optional inital value of
+//  the accumulator.
 
 //  The call back function takes 2 arguments:
 //  The first argument is the accumulator that accumulates the total of all
