@@ -38,7 +38,7 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 03.js
 
 **04** - Arrow functions. In this adventure, I will explore how arrow functions in ES6 works.
 
-This adventure includes use of Javascript's map(), filter(), and reduce() methods
+This adventure includes use of Javascript's map(), filter(), and reduce() methods for arrays.
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 04.js`
 
