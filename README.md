@@ -32,7 +32,7 @@ To view this adventure, please use browser to launch the containing index.html
 
 **03** - Recoding ECMAScript6's **new** keyword. In this adventure, I have coded the implementations under the hood of the **new** keyword in JavaScript.
 
-To view this adventure, use NodeJS to execute this code in terminal: `node 03.js`
+To view this adventure, use NodeJS to execute this code in terminal: `node 03.js` inside the adventure folder
 
 ---
 
@@ -40,8 +40,8 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 03.js
 
 This adventure includes use of Javascript's map(), filter(), and reduce() methods for arrays.
 
-To view this adventure, use NodeJS to execute this code in terminal: `node 04.js`
-
+To view this adventure, use NodeJS to execute this code in terminal: `node 04.js` inside the adventure folder
+ 
 Additional adventures:
 ```
 04a - The behavior of "this" in arrow functions
@@ -58,32 +58,32 @@ To view additional adventures, use NodeJS to execute this code in terminal: `nod
 
 **05** - **bind** keyword. In this adventure, I will explore what is the purpose of bind and how to use it.
 
-To view this adventure, use NodeJS to execute this code in terminal: `node 05.js`
+To view this adventure, use NodeJS to execute this code in terminal: `node 05.js` inside the adventure folder
 
 ---
 
 **06** - Currying. Currying in JS allows a function to accumulatively collect its arguments and process output when all arguments have been collected. It guarantees the order in which arguments are collected by returning a series of functions that are nested. ECMAScript does not currently have a curry method to curry functions natively, but libraries such as lodash can be imported to perform this function. Reference to the adventure can be found [here](https://youtu.be/iZLP4qOwY8I)
 
-To view this adventure, use NodeJS to execute this code in terminal: `node 06.js`
+To view this adventure, use NodeJS to execute this code in terminal: `node 06.js` inside the adventure folder
 
 ---
 
 **07** - Prototypes. Prototypes allows objects in JavaScript to behave like classes. It is a simpler model of object oriented class model in that it allows delegation rather than creating a completely new instance while inheriting the design of the base class. This means if a developer requests for a property or method that the current object does not have, it will reference its prototype object in 
 search for those properties/methods. Only when the property or method is not found in a the prototype will it return undefined.
 
-To view this adventure, use NodeJS to execute this code in terminal: `node 07.js`
+To view this adventure, use NodeJS to execute this code in terminal: `node 07.js` inside the adventure folder
 
 ---
 
 **08** - Object.create(). Object.create() is a static method from Object function object that creates an object and sets its prototype to that of another object.
 
-To view this adventure, use NodeJS to execute this code in terminal: `node 08.js`
+To view this adventure, use NodeJS to execute this code in terminal: `node 08.js` inside the adventure folder
 
 ---
 
 **09** - JavaScript Labels. JavaScript Labels provide a way for loops and code blocks to be labeled such that the `break` command can be applied to a code block or loop. Labels also support `continue` command for loops.
 
-To view this adventure, use NodeJS to execute this code in terminal: `node 09.js`
+To view this adventure, use NodeJS to execute this code in terminal: `node 09.js` inside the adventure folder
 
 ---
 
@@ -91,7 +91,7 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 09.js
 
 Classes includes getter and setter methods. Getter methods cannot accept arguments. Setter methods can only accept one argument.
 
-To view this adventure, use NodeJS to execute this code in terminal: `node 10.js`
+To view this adventure, use NodeJS to execute this code in terminal: `node 10.js` inside the adventure folder
 
 ---
 
@@ -101,22 +101,29 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 11.js
 
 **11a** - We examine the behaviour of super() in scenarios where prototype of a child class is switched to another class. In summary, the constructor's super() still refers to the original parent class' constructor.
 
-To view this adventure, use NodeJS to execute this code in terminal: `node 11a.js`
+To view this adventure, use NodeJS to execute this code in terminal: `node 11a.js` inside the adventure folder
 
 ---
 
 **12** - Classical inheritence with `Object.create()`. In this adventure, we will see that classes are really functions and how the `extends` keyword works under the hood in traditional JavaScript.
 
-To view this adventure, use NodeJS to execute this code in terminal: `node 12.js`
+To view this adventure, use NodeJS to execute this code in terminal: `node 12.js` inside the adventure folder
 
 ---
 
 **13** - Factory functions in Javascript. Factory functions are functions that create objects and return them. To view how they work, check out this adventure.
 
-To view this adventure, use NodeJS to execute this code in terminal: `node 13.js`
+To view this adventure, use NodeJS to execute this code in terminal: `node 13.js` inside the adventure folder
 
 ---
 
 **14** - Limitations of inheritence in JavaScript and how to overcome them using composition.
 
-To view this adventure, use NodeJS to execute this code in terminal: `node 14.js`
+To view this adventure, use NodeJS to execute this code in terminal: `node 14.js` inside the adventure folder
+
+---
+
+**15** - Async/Await
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 15.js` inside the adventure folder
+
