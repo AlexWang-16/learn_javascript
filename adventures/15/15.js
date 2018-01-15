@@ -51,6 +51,13 @@ async function f2(){
   }
 }
 
+async function asyncAdd(a,b){
+  try {
+    return await add(a,b)
+  }catch (e){
+    return console.log(`${e}`)
+  }
+}
 f1()
 f2()
 
@@ -63,3 +70,27 @@ f2()
 // This is the expected result because on reject(), the message is returned
 // instantly while on resolve(), there is a setTimeout of 1.5 seconds before 
 // the result is returned.
+
+//  Concurrency await/async vs promise
+
+//  async/await allows async code to run like synchronous code. This maybe 
+//  useful if you'd like some async code to behave in a synchronous manner
+//  like a SQL database insertion query. However, if you wish for async code
+//  to run concurrently, you will still need Promise to do that. One solution
+//  to get best of both words is to use a hybrid. We can leverage this because
+//  a function marked "async" returns a promise.
+
+async function executeMultipleAddFns(){
+  //  Promise.all() will take an array of promises and wait until they're all
+  //  resolved before returning.
+  return await Promise.all([asyncAdd(1,2), asyncAdd(2,3)]);
+}
+
+//  "result" will be a promise because executeMultipleAddFns() is an async
+//  function. It will wait for all the results to resolve and return it as 
+//  an array of sums due to Promise.all(). By using Promise.all() these
+//  add functions will execute concurrently, while the logic to add the
+//  numbers behave synchronously.
+
+const result = executeMultipleAddFns();
+result.then(sum => console.log(sum))
