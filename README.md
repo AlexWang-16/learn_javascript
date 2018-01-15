@@ -127,3 +127,9 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 14.js
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 15.js` inside the adventure folder
 
+---
+
+**16** - Callback functions
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 16.js` inside the adventure folder
+
