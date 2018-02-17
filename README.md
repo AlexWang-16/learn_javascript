@@ -140,7 +140,7 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 17.js
 
 ---
 
-**18** - Callback functions
+**18** - Object.defineProperty()
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 18.js` inside the adventure folder
 
