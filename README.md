@@ -144,4 +144,9 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 17.js
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 18.js` inside the adventure folder
 
+---
+
+**19** - Object.assign()
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 19.js` inside the adventure folder
 
