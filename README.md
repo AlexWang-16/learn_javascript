@@ -2,8 +2,7 @@
 My JavaScript adventures
 
 ## Requirements
-1. Node JS
-2. Node Package Manager (NPM)
+1. [Node JS with Node Package Manager (NPM)](https://nodejs.org/en/)
 
 ## Installation Instructions
 1. git clone this repository
@@ -132,4 +131,17 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 15.js
 **16** - Callback functions
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 16.js` inside the adventure folder
+
+---
+
+**17** - Promises
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 17.js` inside the adventure folder
+
+---
+
+**18** - Callback functions
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 18.js` inside the adventure folder
+
 
