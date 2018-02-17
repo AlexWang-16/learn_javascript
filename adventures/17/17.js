@@ -42,7 +42,7 @@ add ('one', 2).then(sum => console.log(sum))
 //  == Promise.all() ==
 
 //  JavaScript has an all() method inside Promise object, which allows
-//  async code to be execute concurrently. Promise.al() takes an array of 
+//  async code to be execute concurrently. Promise.all() takes an array of 
 //  promises and waits for them to all resolve before returning it as a single
 //  promise. The developer can then obtain the result (array of promises) and 
 //  iterate through the array of results to perform some action.
