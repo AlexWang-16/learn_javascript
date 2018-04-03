@@ -122,31 +122,37 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 14.js
 
 ---
 
-**15** - Async/Await
+**15** - Async/Await. A new ES7 feature which allows asynchoronous code to be executed synchronously. The power of Async/Await comes from being able to chain it with promise.all() to write code that is easier to understand and more predictiable while maintaining the performance of asynchronous processing.
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 15.js` inside the adventure folder
 
 ---
 
-**16** - Callback functions
+**16** - Callback functions. A mechanism in JavaScript to execute code asynchronously.
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 16.js` inside the adventure folder
 
 ---
 
-**17** - Promises
+**17** - Promises. A newer mechanism in JavaScript that allows chaining asynchronous code and handling errors without the mess that is associated with Callback functions. It avoids *callback hell*.
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 17.js` inside the adventure folder
 
 ---
 
-**18** - Object.defineProperty()
+**18** - Object.defineProperty(). Defines a new property directly on an object or modifies the property on an existing object.
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 18.js` inside the adventure folder
 
 ---
 
-**19** - Object.assign()
+**19** - Object.assign(). A static method that copies enumerable items from one or more sources into another.
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 19.js` inside the adventure folder
+
+---
+
+**20** - *arguments* object. Arguments is a built-in JavaScript object that holds key-value pairs based on arguments passed into a function.
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 19.js` inside the adventure folder
 
