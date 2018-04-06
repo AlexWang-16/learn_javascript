@@ -154,5 +154,10 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 19.js
 
 **20** - *arguments* object. Arguments is a built-in JavaScript object that holds key-value pairs based on arguments passed into a function.
 
-To view this adventure, use NodeJS to execute this code in terminal: `node 19.js` inside the adventure folder
+To view this adventure, use NodeJS to execute this code in terminal: `node 20.js` inside the adventure folder
 
+---
+
+**21** - Object destructuring. A shortcut to pull out and use property/method names of an object as variable names.
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 21.js` inside the adventure folder
