@@ -2,7 +2,7 @@
 My JavaScript adventures
 
 ## Requirements
-1. [Node JS with Node Package Manager (NPM)](https://nodejs.org/en/)
+1. [Node JS v8+ with Node Package Manager (NPM)](https://nodejs.org/en/)
 
 ## Installation Instructions
 1. git clone this repository
