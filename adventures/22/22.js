@@ -20,14 +20,19 @@ function Exception(msg){
 }
 
 try{
-  f1(2)
+  let x = f1(3)
+  let y = f2(1)
 }catch(e){
  // catch takes in the error object passed in 
- console.error(e.msg)
+ if (e.msg == "Number exceeded 5"){
+  console.log('f1 error caught')
+ } else if (e.msg == "Number is below 5") {
+   console.error(`f2 error caught`)
+ }
 }
 
-try {
-  f2(2)
-}catch(e){
-  console.error(e.msg)
-}
+// try {
+//   f2(2)
+// }catch(e){
+//   console.error(e.msg)
+// }
