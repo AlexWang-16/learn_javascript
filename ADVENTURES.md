@@ -204,3 +204,11 @@ A method part of the Array object that returns the value of the first element th
 To view this adventure, use NodeJS to execute this code in terminal: `node 23.js` inside the adventure folder
 
 ---
+
+**24** - Object.seal()
+
+A method of `Object` that disables the ability to add new properties to an object while still providing flexibility for developer to modify existing property values.
+
+To view this adventure, use NodeJS to execute this code in terminal: `node 24.js` inside the adventure folder
+
+---
