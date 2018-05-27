@@ -182,6 +182,13 @@ A shortcut to pull out and use property/method names of an object as variable na
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 21.js` inside the adventure folder
 
+Additional adventures:
+```
+21a - Assigning new variable names during object destructuring
+21b - Assigning default values while assigning new variables during object destructuring
+21c - Using spread operator with object destructuring
+```
+
 ---
 
 **22** - Try-Catch 
