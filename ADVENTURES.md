@@ -130,7 +130,7 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 14.js
 
 An ES7 feature which allows asynchoronous code to be executed synchronously. The power of Async/Await comes from being able to chain it with promise.all() to write code that is easier to understand and more predictiable while maintaining the performance of asynchronous processing.
 
-**NB**: Only make functions that use await async. If a function is nested, the parent function does not need to have async enabled for the child to enable async. Enabling async on functions that are executed synchronously could lead to exceptions since a promise is returned and not fetched data. 
+**NB**: Only declare functions that use `await` async. If a function is nested, the parent function does not need to have async enabled for the child to enable async. Enabling async on functions that are executed synchronously could lead to exceptions since a promise is returned and not fetched data. 
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 15.js` inside the adventure folder
 
