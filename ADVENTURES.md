@@ -98,10 +98,10 @@ The constructor() is a function specifically for class feature in ES6. It can on
 
 To view this adventure, use NodeJS to execute this code in terminal: `node 11.js`
 
-**11a** - We examine the behaviour of super() in scenarios where prototype of a child class is switched to another class. In summary, the constructor's super() still refers to the original parent class' constructor.
-
-To view this adventure, use NodeJS to execute this code in terminal: `node 11a.js` inside the adventure folder
-
+Additional adventures:
+```
+11a - The behaviour of super() when prototype of a child class is switched to another class. The child class still refers to parent via super().
+```
 ---
 
 **12** - Classical inheritence with `Object.create()`. 
