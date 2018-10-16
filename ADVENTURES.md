@@ -219,3 +219,11 @@ A method of `Object` that disables the ability to add new properties to an objec
 To view this adventure, use NodeJS to execute this code in terminal: `node 24.js` inside the adventure folder
 
 ---
+
+**25** - ES6 Import and Export
+
+Using import and exports
+
+To view this adventure, use NodeJS to execute this code in terminal: `npm run babel-run -- adventures/25/25.js`
+
+---
