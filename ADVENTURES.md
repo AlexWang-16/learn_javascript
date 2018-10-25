@@ -227,3 +227,14 @@ Using import and exports
 To view this adventure, use NodeJS to execute this code in terminal: `npm run babel-run -- adventures/25/25.js`
 
 ---
+
+**26** - ES7 Property Initializers
+
+The implementation of property initializers in JavaScript was inspired by TypeScript property initializers. Using this
+new method, developers no longer require the use of constructors to bind methods to the current class' context. This
+allows code that is more succinct and clearer intentions. It is highly used in React.JS components.
+
+There is no code to execute in this adventure. The goal is to show an example of how Property Initializers are used in a real life
+React application.
+
+---
