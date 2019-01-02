@@ -249,3 +249,11 @@ To view regexp capture group (adventure 27), use NodeJS to execute this code in 
 To view named regexp capture group (adventure 27a), use NodeJS to execute this code in terminal: `npx babel-node adventures/27/27a.js`
 
 ---
+
+**28** - ES2015 For-of loop
+
+For of loop allows the developer to provide a variable name as the iterator to iterate through the **values** of each element in the array.
+
+To view named regexp capture group (adventure 27a), use NodeJS to execute this code in terminal: `node adventures/28/28.js`
+
+---
