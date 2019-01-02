@@ -16,4 +16,4 @@ All adventures are store inside adventure/ directory. Inside that directory are 
 
 ## How to execute the adventures
 1. Navigate inside the directory of the specific adventure
-2. Execute node *nameOfAdventure.js* (i.e. `node 04a.js`)
+2. Execute node *nameOfAdventure.js* (i.e. `npx babel-node 04a.js`)
