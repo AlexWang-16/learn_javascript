@@ -9,6 +9,11 @@
 // The following example code is not meant to be executed but serves
 // as reference for how asynch for of loop may work
 
-for await (let name of readNamesOf40GBFiles('names.txt')) {
-  console.log(name);
+// To activate the asynchronous capability of for-of loop, you must put
+// it under a function with async specified
+
+async function readFile() {
+  for await (let name of readNamesOf40GBFiles('names.txt')) {
+    console.log(name);
+  }
 }
