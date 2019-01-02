@@ -224,7 +224,7 @@ To view this adventure, use NodeJS to execute this code in terminal: `node 24.js
 
 Using import and exports
 
-To view this adventure, use NodeJS to execute this code in terminal: `npm run babel-run -- adventures/25/25.js`
+To view this adventure, use NodeJS to execute this code in terminal: `npx babel-node adventures/25/25.js`
 
 ---
 
