@@ -238,3 +238,14 @@ There is no code to execute in this adventure. The goal is to show an example of
 React application.
 
 ---
+
+**27** - Regexp capture groups and ES2018 named regexp named capture groups
+Named capture groups is a way for regexp to highlight specific words captured from a phrase by using brackets to denote those specific matched terms. This allows the developer to pull those specific matches for use. The data is returned as an array with the 0th index returning the entire matched phrase followed by n indexes after for the number of terms matched.
+
+Named capture groups takes this concept further by allowing the developer to assign variable names to capture groups. This allows an API like access for external developers who may want a specific type of information without having to know the implementation details of the regular expression itself.
+
+To view regexp capture group (adventure 27), use NodeJS to execute this code in terminal: `npx babel-node adventures/27/27.js`
+
+To view named regexp capture group (adventure 27a), use NodeJS to execute this code in terminal: `npx babel-node adventures/27/27a.js`
+
+---
